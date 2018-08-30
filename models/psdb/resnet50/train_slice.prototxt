@@ -3505,7 +3505,7 @@ layer {
 }
 layer {
   name: "pid_loss"
-  type: "SoftmaxLoss"
+  type: "SoftmaxWithLoss"
   bottom: "ip2"
   bottom: "pid_label_nojunk"
   top: "pid_loss"
